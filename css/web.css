@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.admin-top .row{
+	display: flex;
+	background-color: #FFF2C6;
+	
+}
+.admin-top .row .admin-left{
+	color: #fff;
+	width: 20%;
+	background-color: yellow;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
