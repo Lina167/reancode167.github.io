@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;700;800;900&display=swap');
+body{
+	font-family: 'Noto Sans Khmer', sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+/* MAIN */
+main{
+	color: black;
+	line-height: 2.5;
+	justify-content: center;
+	font-family: 'Noto Sans Khmer', sans-serif;
+}
+.cnt h2{
+	color: #AAAAAA;
+	font-size: 25px;
+	text-decoration: underline;
+}
+.cnt p{
+	line-height: 2;
+}
+#cn1 img{
+	width: 500px;
+	
+}
+.h2{
+	color: #AAAAAA;
+	font-weight: 700;
+}
+.cnt1{
+	display: flex;
+}
+#cn1{
+	line-height: inherit;
+	font-size: 10px;
+}
+/* MAIN */

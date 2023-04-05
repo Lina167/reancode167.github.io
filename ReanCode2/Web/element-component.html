@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="../Pic/logo.png">
+
+	<!-- Boxicons -->
+	<link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="../css/web/introduction.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/index.css">
+
+	<title>Element Component</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="../index.html" class="brand">
+			<img src="../Pic/logo2.png" alt="">
+		</a>
+		<ul class="side-menu top">
+			<li>
+				<a href="introduction.html">
+					<i class="bx bxl-html5" id="h1"></i>
+					<span class="text" id="h1"><u>HTML Basic</u></span>
+				</a>
+			</li>
+			<li>
+				<a href="introduction.html">
+					<i class="bx bx-code-alt"></i>
+					<span class="text">Introduction</span>
+				</a>
+			</li>
+			<li>
+				<a href="general.html">
+					<i class="bx bx-code-alt"></i>
+					<span class="text">General Tags</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="element-component.html">
+					<i class="bx bx-code-alt"></i>
+					<span class="text">Element Component</span>
+				</a>
+			</li>
+			<li>
+				<a href="more-tags.html">
+					<i class="bx bx-code-alt"></i>
+					<span class="text">More Tags</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class="bx bx-menu" ></i>
+			<a href="../index.html" class="nav-link">Home</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class="bx bx-search" ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class="bx bxs-bell" ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="../Pic/IMG_20230320_142856_487.jpg">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="cnt">
+				<h2>Element Component</h2>
+				<p>
+					&emsp;&emsp;Element មួយគឺជាបន្សំនៃ open tag មួយ អាចជាមួយនឹង attributes មួយចំនួន តំលៃមួយចំនួននិងclosing tag មួយ។ Element អាចផ្ទុកនូវ elements ។
+					<!---tab--->
+					</br><b>Tags</b></br>&emsp;&emsp;Tag ជាការសំគាល់ចំនុចចាប់ផ្ដើម និងចំនុចបញ្ចប់នៃ element មួយបញ្ជាក់ដោយ សញ្ញា (<>)។ tag មានពីរគឺ Open tag(<span><</span>tag<span>></span>) Closing Tag(<span><</span>/tag<span>></span>)</br>Example:</br>&emsp;&emsp;<span><</span>html<span>></span><span><</span>/html<span>></span></br>&emsp;&emsp;<span><</span>h1<span>></span><span><</span>/h1<span>></span></br>&emsp;&emsp;មាន <span><</span>tag<span>></span> មួយចំនួនមិនមាន closing tagទេ ដូច្នេះ tag ប្រភេទនេះគេហៅថា self-closing element រឺ replaced element ដូចជា <span><</span>img<span>></span>, <span><</span>br<span>></span>, <span><</span>hr<span>></span>,<span><</span>meta<span>></span>។
+					<!---Attribute--->
+					</br><b>Attribute</b></br>&emsp;&emsp;Attribute ជាការកំនត់លក្ខណៈរបស់ element មួយ។ Attribute ចែកចេញជាពីរប្រភេទគឺ៖ Attribute NameនិងAttribute Value។</br>&emsp;&emsp;tags ភាគច្រើនមាន attribute បីប្រភេទដូចខាងក្រោម៖,</br>
+					<!---Core Attribute--->
+					<b>Core Attribute</b></br>&emsp;&emsp;➤&emsp;id: ឈ្មោះសំគាល់ element ដែលក្នុង document មួយមិនអាចមាន id ដូចគ្នាបាទ</br>&emsp;&emsp;➤&emsp;class ជាឈ្មោះសំគាល់ class របស់ element ដែលប្រើក្នុង style sheets</br>&emsp;&emsp;➤&emsp;style: ប្រើសំរាប់កំនត់ style អោយ element</br>&emsp;&emsp;➤&emsp;title: សំរាប់បង្កើត tooltip ពេល ដាក់ mouse ពីលើ</br>&emsp;&emsp;Example:</br>&emsp;&emsp;&emsp;<span><</span>h1 title="Heading Text"<span>></span>Hello World!<span><</span>/h1<span>></span></br>&emsp;&emsp;&emsp;<span><</span>h1 style="color:red"<span>></span>Hello World!<span><</span>/h1<span>></span></br>
+					<!---Language Attribute--->
+					<b>Language Attribute</b></br>&emsp;&emsp;✡&emsp;dir: A direction sur text insattan ltr (left to right), rtl (right to left)</br>&emsp;&emsp;✡&emsp;lang ជាភាសាដែលនឹងត្រូវប្រើសំរាប់ attribute និង content របស់ element មួយ។ browser អាចប្រើពត៌មាននេះដើម្បីជំនួយក្នុងការ បកប្រែ content ដើម្បីគោរពនឹងភាព លំអិតដូចជា ប្រព្រឹត្តិកម្មនៃចំណង(ពេលដែល support ដោយ font ណាមួយ រឹតម្រូវការ ដោយភាសាដែលបានសរសេរ), quotation marks, and hyphenation។ ម្យ៉ាងវិញទៀត កម្មវិធី និង search engines ដទៃទៀតអាចប្រើពត៌មាននេះដើម្បីជំនួយក្នុងការ ជ្រើសរើសspell-checking dictionary និងការបង្កើត index។</br>&emsp;Example:</br>&emsp;&emsp;<span><</span>h1 dir="rtl" lang="en"<span>></span> Hello World!<span><</span>/h1<span>></span></br>
+					<!---Core Event Attribute---><b>Core Event Attribute</b></br>&emsp;&emsp;֍&emsp;onclick</br>&emsp;&emsp;֍&emsp;ondblclick</br>&emsp;&emsp;֍&emsp;onmousedown</br>&emsp;&emsp;֍&emsp;onmouseup</br>&emsp;&emsp;֍&emsp;onmouseover</br>&emsp;&emsp;֍&emsp;onmousemove</br>&emsp;&emsp;֍&emsp;onmouseout</br>&emsp;&emsp;֍&emsp;onkeypress</br>&emsp;&emsp;֍&emsp;onkeydown</br>&emsp;&emsp;֍&emsp;onkeyup</br>Example:</br>&emsp;&emsp;<span><</span>h1 onclick="alert('Hello')"<span>></span>Hello World<span><</span>/h1<span>></span>	
+				</p>
+						
+			</div>
+			<div class="row cnt">
+				<img src="../Pic/Screenshot 2023-03-23 160324.png" alt="" id="cn1">
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	<section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Re</span>an <span>Co</span>de</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://web.facebook.com/profile.php?id=100024197208223"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="../Pic/IMG_20230320_142856_487.jpg" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 By MoeunLina. All rights reserved</p>
+    </div>
+  </section>
+	
+
+	<script src="../scipt/script.js"></script>
+</body>
+</html>
